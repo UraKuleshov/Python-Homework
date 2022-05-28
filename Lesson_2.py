@@ -128,7 +128,7 @@ print(prices_1)
 
 
 # # task 5.d
-# print("")
-# largest = heapq.nlargest(5, prices)
-# largest.sort()
-# print(largest)
+print("")
+largest = heapq.nlargest(5, prices)
+largest.sort()
+print(largest)

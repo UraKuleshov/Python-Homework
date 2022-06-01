@@ -69,8 +69,8 @@ def get_jokes(meaning, repeats=0):
                 meaning -= 1
     except IndexError:
         print(f'Невозможно получить {meaning_1} уникальных значений из 5 доступных!!!')
-#
-#
-# get_jokes(5, 1)
-#
-# print(g)
+
+
+get_jokes(5, 1)
+
+print(g)

@@ -2,6 +2,7 @@ import requests
 import json
 
 
+# task 3
 def currency_rates(currency):
     response = requests.get('https://www.cbr-xml-daily.ru/daily_json.js')
     result = json.loads(response.text)

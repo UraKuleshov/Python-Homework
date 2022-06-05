@@ -35,8 +35,8 @@ print(m)
 
 
 # task 5
-# src_1 = [2, 2, 2, 7, 23, 1, 44, 44, 3, 2, 10, 7, 4, 11]
-#
-# result_1 = [i for i in src_1 if src_1.count(i) < 2]
-#
-# print(result_1)
+src_1 = [2, 2, 2, 7, 23, 1, 44, 44, 3, 2, 10, 7, 4, 11]
+
+result_1 = [i for i in src_1 if src_1.count(i) < 2]
+
+print(result_1)

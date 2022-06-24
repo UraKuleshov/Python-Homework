@@ -50,19 +50,19 @@ calc_cube(5)
 
 
 # task 4
-# def val_checker(t):
-#     def error(t):
-#         if t > 0:
-#             print(t ** 3)
-#         elif t < 0:
-#             raise ValueError
-#     return error
-#
-#
-# @val_checker
-# def calc_cube(x):
-#     return x ** 3
-#
-#
-# calc_cube(5)
+def val_checker(t):
+    def error(t):
+        if t > 0:
+            print(t ** 3)
+        elif t < 0:
+            raise ValueError
+    return error
+
+
+@val_checker
+def calc_cube(x):
+    return x ** 3
+
+
+calc_cube(5)
 

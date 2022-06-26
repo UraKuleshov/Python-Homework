@@ -122,11 +122,11 @@ class Handle(Title):
         print(f'Запускается {self.a} "{self.b}"')
 
 
-# a = Pen("отрисовка")
-# a.draw()
-#
-# b = Pencil("отрисовка")
-# b.draw()
-#
-# c = Handle("отрисовка")
-# c.draw()
+a = Pen("отрисовка")
+a.draw()
+
+b = Pencil("отрисовка")
+b.draw()
+
+c = Handle("отрисовка")
+c.draw()

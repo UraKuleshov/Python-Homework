@@ -207,29 +207,29 @@ while human != "stop":
 
 
 # task 7
-# class Operations:
-#     def __init__(self, num, num_2):
-#         self.num = num
-#         self.num_2 = num_2
-#
-#     def __add__(self):
-#         print(self.num + self.num_2)
-#
-#     def __mul__(self):
-#         print(self.num * self.num_2)
-#
-#
-# class ComplexNumber:
-#     def __init__(self, number):
-#         self.number = number
-#
-#     def __str__(self):
-#         return self.number
-#
-#
-# a = ComplexNumber(1)
-# b = ComplexNumber(2)
-#
-# c = Operations(a.__str__(), b.__str__())
-# c.__add__()
-# c.__mul__()
+class Operations:
+    def __init__(self, num, num_2):
+        self.num = num
+        self.num_2 = num_2
+
+    def __add__(self):
+        print(self.num + self.num_2)
+
+    def __mul__(self):
+        print(self.num * self.num_2)
+
+
+class ComplexNumber:
+    def __init__(self, number):
+        self.number = number
+
+    def __str__(self):
+        return self.number
+
+
+a = ComplexNumber(1)
+b = ComplexNumber(2)
+
+c = Operations(a.__str__(), b.__str__())
+c.__add__()
+c.__mul__()
